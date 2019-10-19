@@ -1,0 +1,249 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+.mainer {
+    max-width: 1140;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logo {
+    text-align: center;
+    padding: 110px 0;
+}
+.logo a {
+    text-align: center;
+    color: #ffae00;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.content {
+    margin: 0 0 105px 0;
+}
+.footer {
+    background-color: #1d1c1c;
+    padding: 110px 0;
+}
+.our-features {
+    color: white;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.our-features li {
+    text-align: center;
+    padding: 0 15px;
+    line-height: 24px;
+}
+.our-features .caption {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 26px;
+}
+.our-features .icon {
+    background-color: #ff9c00;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin:  0 0 35px 0;
+    border-radius: 15px 0;
+    line-height: 80px;
+    font-size: 35px;
+    color: white;
+}
+.columns {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.columns .column-1 {
+    color: #ff9c00;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 70px 30px;
+    display: inline-block;
+
+}
+.column-1_1 {
+    width: 520px;
+    height: 365px;
+    line-height: 24px;
+
+}
+.columns .button {
+    width: 170px;
+    height: 40px;
+    background-color: #ff9c00;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.column-2_2 {
+    position: relative;
+    width: 580px;
+    height: 450px;
+    margin: 0 80px 0 60px;
+}
+.column-2_2 .skills {
+    color: #ff9c00;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 50px 0;
+
+}
+.column-2_2 .scale-1-1 {
+    width: 500px;
+    height: 5px;
+    margin: 20px 0 30px 0;
+    background-color: #ffbe33;
+    color: white;
+    text-align: end;
+    line-height: 25px;
+}
+.column-2_2 .scale-1-1::after {
+    content: "90%";
+    display: block;
+    position: absolute;
+    right: 80px;
+    top: 110px;
+    width: 40px;
+    height: 25px;
+    background-color: #ffbe33;
+    
+}
+.column-2_2 .scale-2-2 {
+    width: 390px;
+    height: 5px;
+    margin: 20px 0 30px 0;
+    background-color: #ffbe33;
+    color: white;
+    text-align: end;
+    line-height: 25px;
+}
+.column-2_2 .scale-2-2:after {
+    content: "85%";
+    display: block;
+    position: absolute;
+    right: 190px;
+    top: 180px;
+    width: 40px;
+    height: 25px;
+    background-color: #ffbe33;
+    
+}
+.column-2_2 .scale-3-3 {
+    width: 450px;
+    height: 5px;
+    margin: 20px 0 30px 0;
+    background-color: #ffbe33;
+    color: white;
+    text-align: end;
+    line-height: 25px;
+}
+.column-2_2 .scale-3-3:after {
+    content: "89%";
+    display: block;
+    position: absolute;
+    right: 130px;
+    top: 250px;
+    width: 40px;
+    height: 25px;
+    background-color: #ffbe33;
+    
+}
+
+.column-2_2 .scale-4-4 {
+    width: 430px;
+    height: 5px;
+    margin: 20px 0 30px 0;
+    background-color: #ffbe33;
+    color: white;
+    text-align: end;
+    line-height: 25px;
+}
+.column-2_2 .scale-4-4:after {
+    content: "87%";
+    display: block;
+    position: absolute;
+    right: 140px;
+    top: 323px;
+    width: 40px;
+    height: 25px;
+    background-color: #ffbe33;
+    
+}
+.column-2_2 .scale-5-5 {
+    width: 495px;
+    height: 5px;
+    margin: 20px 0 30px 0;
+    background-color: #ffbe33;
+    color: white;
+    text-align: end;
+    line-height: 25px;
+}
+.column-2_2 .scale-5-5::after {
+    content: "95%";
+    display: block;
+    position: absolute;
+    right: 70px;
+    top: 394px;
+    width: 40px;
+    height: 25px;
+    background-color: #ffbe33;
+    
+}
